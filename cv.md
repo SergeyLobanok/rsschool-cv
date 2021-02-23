@@ -48,6 +48,8 @@ function getSubmit(e){
         window.location.replace("login/index.html");
         e.preventDefault();    
 }
+
+
 6. I attented "Html&CSS" course also I completed base course of JS at IT-SHUTLE school. 
 7. I graduated from at the "International University MITSO".
 8. I carry on studyng English B1 Level.
