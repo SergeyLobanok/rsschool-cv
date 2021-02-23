@@ -46,9 +46,8 @@ function getSubmit(e){
         usersArr.push(userData);
         localStorage.setItem("userArr", JSON.stringify(usersArr));
         window.location.replace("login/index.html");
-        e.preventDefault();
-    
-} </pre>
+        e.preventDefault();    
+}
 6. фв
 7. фыв
 8. I carry on studyng English B1 Level.
