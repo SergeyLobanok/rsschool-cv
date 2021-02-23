@@ -6,7 +6,7 @@
  <br>
 3. I'm 28 and I've already have experience as sales manager. Curently I'm working as a planning specialitist in analytics department.<br>
 4. My knowlages: html, css, scss and js.<br>
-5. let registrationForm = document.getElementById("registration");
+5. <pre> let registrationForm = document.getElementById("registration");
 let email = document.getElementById("email");
 let password = document.getElementById("password");
 let confirmPassword = document.getElementById("confirmpassword");
@@ -48,7 +48,7 @@ function getSubmit(e){
         window.location.replace("login/index.html");
         e.preventDefault();
     
-}
+} <pre>
 6. фв
 7. фыв
 8. I carry on studyng English B1 Level.
