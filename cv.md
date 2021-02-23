@@ -48,7 +48,7 @@ function getSubmit(e){
         window.location.replace("login/index.html");
         e.preventDefault();
     
-} <pre>
+} </pre>
 6. фв
 7. фыв
 8. I carry on studyng English B1 Level.
