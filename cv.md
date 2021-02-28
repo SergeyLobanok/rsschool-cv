@@ -48,7 +48,7 @@ function getSubmit(e){
         window.location.replace("login/index.html");
         e.preventDefault();    
 }
-
+</pre>
 
 I attented "Html&CSS" course also I completed base course of JS at IT-SHUTLE school. 
 I graduated from at the "International University MITSO".
