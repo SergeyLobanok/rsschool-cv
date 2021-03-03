@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body, head{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 200px;
+    background-color: rgb(134, 233, 233);
+}
+.container{
+    width: 1200px;
+    padding:0 40px 0 40px;
+    margin: 0 auto;
+}
+.head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    top:50%;
+    transform: translateY(50%);
+}
+.logo img{
+    width: 150px;
+    border-radius: 50%;
+}
+.contacts{
+    p{
+        margin:0;
+    }
+}
+
+.about_myself h2,p{
+    text-align: center;
+}
+.code h2{
+    text-align: center;
+}
+.footer{
+    background-color:  rgb(134, 233, 233);
+    text-align: center;
+    height: 30px;
+    margin-top: -30px;
+}
