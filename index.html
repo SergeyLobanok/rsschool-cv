@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css" />
+    <title>CV</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="head">
+                <div class="logo">
+                    <img src="images/abTdFCnDkPo.jpg" alt="">
+                </div>
+                <div class="name">
+                    <h1>Sergey Lobanok</h1>
+                </div>
+                <div class="contacts">
+                    <h2>
+                        Contacts:
+                    </h2>
+                    <span>phone: +375(29)632-34-06</span>
+                </br>
+                    <span>email: sergeylobnok93@gmail.com</span>
+                </div>
+            </div> 
+        </div>
+    </header>
+    <section class="about">
+        <div class="container">
+            <div class="about_myself">
+            <h2>About myself</h2>
+            <p>I'm 28 and I've already have experience as sales manager.</p>
+            <p> Curently I'm working as a planning specialitist in analytics department.
+                My knowlages: html, css, scss and js.</p>
+            <p>I attented "Html&CSS" course also I completed base course of JS at IT-SHUTLE school. I graduated from at the "International University MITSO". I carry on studyng English B1 Level.</p>
+             </div>
+        </div>
+    </section>
+    <section class="code">
+        <div class="container">
+            <h2>My code for expample:</h2>
+            <pre>
+                let registrationForm = document.getElementById("registration");
+                let email = document.getElementById("email");
+                let password = document.getElementById("password");
+                let confirmPassword = document.getElementById("confirmpassword");
+                let btn = document.getElementById("btn");
+                registrationForm.addEventListener("submit", getSubmit);
+                function getSubmit(e){
+                    if (email.value === ""){
+                        alert("Please enter your email");
+                        e.preventDefault();
+                        return;
+                    } 
+                    if (password.value === ""){
+                        alert("Please write your password ");
+                        e.preventDefault();
+                        return;
+                    }
+                    if(password.value.length < "8"){
+                        alert("Your password very short");
+                        e.preventDefault();
+                        return;
+                    }
+                    if(confirmPassword.value === ""){
+                        alert("Please write your confirm password");
+                        e.preventDefault();
+                        return;
+                    }
+                    if (password.value !== confirmPassword.value){
+                        alert("Yours password is not correct");
+                        e.preventDefault();
+                        return;
+                    } 
+                        let userData = {
+                            "email": email.value,
+                            "password": password.value
+                        }
+                        let usersArr = JSON.parse(localStorage.getItem("userArr") || "[]");
+                        usersArr.push(userData);
+                        localStorage.setItem("userArr", JSON.stringify(usersArr));
+                        window.location.replace("login/index.html");
+                        e.preventDefault();    
+                }
+            </pre>
+        </div>
+    </section>
+    <footer class="footer">
+        <h2>Sergey Lobanok 2021</h2>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,59 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body, head {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 200px;
+  background-color: #86e9e9;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 40px 0 40px;
+  margin: 0 auto;
+}
+
+.head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  top: 50%;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+}
+
+.logo img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.contacts p {
+  margin: 0;
+}
+
+.about_myself h2, p {
+  text-align: center;
+}
+
+.code h2 {
+  text-align: center;
+}
+
+.footer {
+  background-color: #86e9e9;
+  text-align: center;
+  height: 30px;
+  margin-top: -30px;
+}
+/*# sourceMappingURL=main.css.map */
